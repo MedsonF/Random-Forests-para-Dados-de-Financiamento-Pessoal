@@ -22,5 +22,7 @@
 
 ### The analysis model used includes Random Forest, Decision Tree, and even the combination of these two models, leading to the following conclusions:
 
-* When considering only accuracy, and if we consider when the model indicates the customer is **not eligible** to receive the money, the **Random Forest** model performed better.
-* However, the accuracy for when the customer is **eligible** to receive the money is very low. In such cases, the **Decision Tree** model is a good alternative when both relative accuracy for accepting or declining the loan is desired.
+
+* When considering only accuracy, and if we consider when the model indicates the customer is **eligible** to receive the money, the **Random Forest** model performed better.
+* However, the accuracy for when the customer is **not eligible** to receive the money is very low. In such cases, the **Decision Tree** model is a good alternative when both relative accuracy for accepting or declining the loan is desired.
+
